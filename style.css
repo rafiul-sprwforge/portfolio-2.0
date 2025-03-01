@@ -11,7 +11,8 @@ body{
     background-color: #f4f4f4;
 }
 
-header{
+header,
+footer{
     padding: 15px 0;
     background: #333;
     text-align: center;
@@ -55,4 +56,12 @@ a{
 
 .project{
     margin:10px 0;
+}
+
+blockquote{
+    display: inline;
+}
+i{
+    font-size: 16px;
+    color: black;
 }
