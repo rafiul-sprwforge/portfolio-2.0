@@ -6,7 +6,6 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    
 }
 body{
     background-color: #f4f4f4;
@@ -24,6 +23,11 @@ section{
     padding: 20px 0px;
 }
 
+h2{
+    color: #493D9E;
+    padding-bottom: 8px;
+}
+
 .container{
     width: 80%;
     margin: auto;
@@ -31,10 +35,24 @@ section{
     padding: 20px;
 }
 
-img{
+.profile-img{
     display: block;
     width: 150px;
     margin:10px auto;
     border-radius: 50%;
 }
+a{
+    text-decoration: none;
+}
 
+.gallery{
+    display: block;
+    margin: 10px auto;
+    height: 232px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.project{
+    margin:10px 0;
+}
